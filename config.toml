@@ -1,0 +1,27 @@
+# baseURL = "https://your_domain.com/"
+languageCode = "en"
+defaultContentLanguage = "en"
+theme= "lynx"
+
+title = "Queer Girl Film Club"
+# copyright = "Copy, _right?_ :thinking_face:"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[author]
+  name = "Queer Girl Film Club"
+  image = "img/logo-dark.png"  # path relative to static directory
+
+  links = [
+    { apple = { href = "https://podcasts.apple.com/gb/podcast/queer-girl-film-club/id1595825434", text = "Listen on Apple Podcasts" } },
+    { spotify = { href = "https://podcasts.apple.com/gb/podcast/queer-girl-film-club/id1595825434", text = "Listen on Spotify" } },
+    { buzzsprout = { href = "https://queergirlfilmclub.buzzsprout.com/", text = "Listen on Buzzsprout" } },
+    { instagram = "https://www.instagram.com/queergirlfilmclub/" },
+    { twitter = "https://twitter.com/queergirlfc" },
+  ]
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.86.1"
